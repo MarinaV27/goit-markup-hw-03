@@ -1,0 +1,124 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+ul {
+    list-style-type: none;
+}
+.link {
+    text-decoration: none;
+}
+    
+.logo {
+        font-family: "Raleway", sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4D5AE5;
+}
+.logo-dark{
+    color: #2E2F42;
+}
+
+.menu-link {
+    color:#2E2F42;
+        font-weight: 500;
+        line-height: 1.5;
+        /* 150% */
+        
+}
+.menu-link:hover,
+.menu-link:focus{
+    color: #404BBF;
+} 
+.page-address {
+    font-style: normal;
+}
+.connection {
+    color: #434455;
+    line-height: 1.5;
+}
+.connection:hover,
+.connection:focus {
+    color: #404BBF;
+}
+.hero {
+    background-color: #2e2f42;
+}
+.main-title {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.button-hero {
+        font-weight: 500;
+        line-height: 1.5;
+        /* 150% */
+        letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: #4D5AE5; 
+    cursor: pointer;
+}
+.button-hero:hover,
+.button-hero:focus {
+    background-color: #404BBF;
+}
+
+.cloud {
+    background-color: #F4F4FD;
+}
+
+.title-three {
+    color: #2E2F42;
+        /* Header 3 */
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        /* 120% */
+        letter-spacing: 0.02em;
+
+}
+.title-second {
+    color:#2E2F42;
+    /* Header 2 */
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    /* 111.111% */
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+}
+.cloud-list {
+    background-color: #FFFFFF;
+}
+
+.descrition {
+color:#434455;
+    font-size: 16px;
+    line-height: 1.5;
+    /* 150% */
+}
+.descrition-footer {
+    color: #F4F4FD;
+        line-height: 1.5;
+        /* 150% */
+}
+.footer-class {
+    background-color: #2E2F42;
+}
+
+.logo-cloud {
+color: #F4F4FD;
+}
