@@ -47,9 +47,12 @@ ul {
     padding-left: 15px;
     padding-right: 15px;
 }
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 
-
-/* ========== HEADER STYLES ========== */
+/* ===================== HEADER STYLES ==================== */
 .page-header-containar {
     width: 1158px;
     display: flex;
@@ -110,7 +113,10 @@ ul {
 .connection:focus {
     color: #404BBF;
 }
+
+/*====================HERO===================*/
 .hero {
+    width: 1440px;
     background-color: #2e2f42;
 }
 .main-title {
@@ -120,6 +126,11 @@ ul {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+    padding-top: 188px;
 }
 
 .button-hero {
@@ -130,6 +141,11 @@ ul {
     color: #FFFFFF;
     background-color: #4D5AE5; 
     cursor: pointer;
+    width: 169px;
+    height: 56px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 188px;
 }
 .button-hero:hover,
 .button-hero:focus {
