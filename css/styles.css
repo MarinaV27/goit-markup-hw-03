@@ -16,13 +16,60 @@ ul,ol {
     margin-top: 0;
     margin-bottom: 0;
 }
+img {
+    display: block;
+}
+
+
 ul {
     list-style-type: none;
 }
 .link {
     text-decoration: none;
 }
-    
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/* ========== HEADER STYLES ========== */
+.page-header-containar {
+    width: 1158px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+}
+.page-nav {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    column-gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-left: 76px;
+}
+
+
 .logo {
         font-family: "Raleway", sans-serif;
         font-size: 18px;
@@ -35,12 +82,16 @@ ul {
 .logo-dark{
     color: #2E2F42;
 }
-
+.link {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 .menu-link {
     color:#2E2F42;
         font-weight: 500;
         line-height: 1.5;
         /* 150% */
+       
         
 }
 .menu-link:hover,
@@ -48,6 +99,7 @@ ul {
     color: #404BBF;
 } 
 .page-address {
+   
     font-style: normal;
 }
 .connection {
