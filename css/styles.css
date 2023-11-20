@@ -209,6 +209,9 @@ ul {
     background-color: #FFFFFF;
     
 }
+.title-portfolio {
+    padding: 120px 0;
+}
 
 .descrition {
 color:#434455;
@@ -221,9 +224,12 @@ color:#434455;
     color: #F4F4FD;
         line-height: 1.5;
         /* 150% */
+        width: 264px;
+        margin-top: 18px;
 }
 .footer-class {
     background-color: #2E2F42;
+    padding: 120px 0;
 }
 
 .logo-cloud {
