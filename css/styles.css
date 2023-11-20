@@ -49,9 +49,7 @@ ul {
 
 
 
-.section {
-    padding-top: 60px;
-    padding-bottom: 60px;
+
 }
 
 /* ===================== HEADER STYLES ==================== */
@@ -128,17 +126,22 @@ ul {
     line-height: 1.07;
     letter-spacing: 0.02em;
     width: 496px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    
     margin-bottom: 48px;
     background-color: red;
+}
+.solutions {
+    padding: 120px 0;
 }
 .cloud {
     padding: 120px 0;
 }
 .box-list {
     display: flex;
-}
+    width: calc((100%-72)/4);
+    column-gap: 24px;
+ }
 .button-hero {
     display: block;
         font-weight: 500;
@@ -159,9 +162,18 @@ ul {
     background-color: #404BBF;
 }
 
+.accomplishments {
+    display: flex;
+    margin: 0 auto;
+    margin: 24px;
+    
+}
+
 .cloud {
     background-color: #F4F4FD;
 }
+
+
 
 .title-three {
     color: #2E2F42;
@@ -171,7 +183,15 @@ ul {
         line-height: 1.2;
         /* 120% */
         letter-spacing: 0.02em;
+        display: block;
+    
+}
 
+.foto-ad {
+    display: flex;
+    width: calc((100%-96)/6);
+    column-gap: 24px; 
+    flex-wrap: wrap;
 }
 .title-second {
     color:#2E2F42;
@@ -187,6 +207,7 @@ ul {
 }
 .cloud-list {
     background-color: #FFFFFF;
+    
 }
 
 .descrition {
@@ -194,6 +215,7 @@ color:#434455;
     font-size: 16px;
     line-height: 1.5;
     /* 150% */
+    display: block;
 }
 .descrition-footer {
     color: #F4F4FD;
