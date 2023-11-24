@@ -20,6 +20,7 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
+    
 }
 
 
@@ -58,7 +59,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: aqua;
+  
 }
 .page-nav {
     display: flex;
@@ -130,7 +131,7 @@ ul {
     margin: 0 auto;
     
     margin-bottom: 48px;
-    background-color: red;
+  
 }
 .cards {
     
@@ -138,6 +139,14 @@ ul {
        width: 232px;
        margin: auto;
        
+}
+.cards-ad {
+    padding: 32px 16px;
+    border-style: solid;
+    border-top: none ;
+    border-width: 1px;
+    border-color:  #E7E9FC;
+
 }
 
 .cards .title-three{
@@ -148,7 +157,9 @@ ul {
     text-align: center;
 }
 
-
+.cards-ad .title-three {
+margin-bottom: 8px;
+}
 .solutions {
     padding: 120px 0;
 }
@@ -215,6 +226,7 @@ ul {
     width: calc((100%-96)/6);
     column-gap: 24px; 
     flex-wrap: wrap;
+    
 }
 .title-second {
     color:#2E2F42;
@@ -233,9 +245,16 @@ ul {
     border-radius: 0px 0px 4px 4px;
 }
 .title-portfolio {
-    padding: 120px 0;
+    padding: 72px 0;
 }
+.portfolio-list {
+    flex-basis: 360px;
+    margin-bottom: 48px;
+    
+    
+   
 
+}
 .descrition {
 color:#434455;
     font-size: 16px;
