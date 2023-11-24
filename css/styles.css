@@ -133,6 +133,12 @@ ul {
     margin-bottom: 48px;
   
 }
+
+.visually-hidden-list {
+    flex-basis: 264px;
+}
+
+
 .cards {
     
         padding: 32px 0px 32px 0px;
@@ -192,8 +198,8 @@ margin-bottom: 8px;
 
 .accomplishments {
     display: flex;
-    margin: 0 auto;
-    margin: 24px;
+    width: calc((100%-72)/4);
+    column-gap: 24px;
     
 }
 
@@ -217,7 +223,7 @@ margin-bottom: 8px;
         letter-spacing: 0.02em;
         display: block;
      
-
+        
     
 }
 
@@ -245,7 +251,7 @@ margin-bottom: 8px;
     border-radius: 0px 0px 4px 4px;
 }
 .title-portfolio {
-    padding: 72px 0;
+    padding: 120px 0 72px 0;
 }
 .portfolio-list {
     flex-basis: 360px;
