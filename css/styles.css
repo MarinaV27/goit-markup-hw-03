@@ -18,6 +18,8 @@ ul,ol {
 }
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -131,21 +133,20 @@ ul {
     background-color: red;
 }
 .cards {
-    justify-content: center;
-    align-items: center;
-        padding: 32px 0px;
-        border: 1px ;
-        border-radius: 0px 0px 4px 4px;
+    
+        padding: 32px 0px 32px 0px;
+       width: 232px;
+       margin: auto;
+       
 }
 
-display: inline-flex;
-padding-bottom: 0px;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 32px;
-
-
+.cards .title-three{
+    text-align: center;
+    margin-bottom: 8px;
+}
+.cards .descrition {
+    text-align: center;
+}
 
 
 .solutions {
@@ -204,6 +205,8 @@ gap: 32px;
         /* 120% */
         letter-spacing: 0.02em;
         display: block;
+     
+
     
 }
 
@@ -227,7 +230,7 @@ gap: 32px;
 }
 .cloud-list {
     background-color: #FFFFFF;
-    
+    border-radius: 0px 0px 4px 4px;
 }
 .title-portfolio {
     padding: 120px 0;
