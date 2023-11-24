@@ -69,21 +69,22 @@ ul {
     
   
 }
-.page-nav {
+.page-nav { 
     display: flex;
+    align-items: center;
 }
 
 .menu {
     display: flex;
-    column-gap: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
-    margin-left: 76px;
+    gap: 40px;
 }
 
 
 .logo {
         font-family: "Raleway", sans-serif;
+        margin-right: 76px;
         font-size: 18px;
         font-weight: 700;
         line-height: 1.17;
@@ -94,7 +95,7 @@ ul {
 .logo-dark{
     color: #2E2F42;
 }
-.link {
+.menu-item .link {
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -135,11 +136,10 @@ ul {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    width: 496px;
+    max-width: 496px;
     margin: 0 auto;
-    
     margin-bottom: 48px;
-  
+    
 }
 
 .visually-hidden-list {
@@ -181,8 +181,8 @@ margin-bottom: 8px;
 
 .box-list {
     display: flex;
-    width: calc((100%-72)/4);
-    column-gap: 24px;
+    flex-basis: calc((100% - 72px) / 4);
+    gap: 24px;
  }
 .button-hero {
     display: block;
@@ -193,7 +193,7 @@ margin-bottom: 8px;
     color: #FFFFFF;
     background-color: #4D5AE5; 
     cursor: pointer;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     margin: 0 auto;
     border-radius: 4px;
@@ -206,16 +206,15 @@ margin-bottom: 8px;
 
 .accomplishments {
     display: flex;
-    width: calc((100%-72)/4);
-    column-gap: 24px;
+    flex-basis: calc((100% - 72px) / 4);
+    gap: 24px;
     
 }
 
 .cloud {
     background-color: #F4F4FD;
-}
-.cloud {
-        padding: 120px 0;}
+        padding: 120px 0;
+    }
 
 
 
@@ -230,15 +229,16 @@ margin-bottom: 8px;
         /* 120% */
         letter-spacing: 0.02em;
         display: block;
+        margin-bottom: 8px;
      
         
     
 }
 
-.foto-ad {
+.photo-ad {
     display: flex;
-    width: calc((100%-96)/6);
-    column-gap: 24px; 
+    flex-basis: calc((100% - 48px) / 3);
+    gap: 24px; 
     flex-wrap: wrap;
     
 }
@@ -253,17 +253,18 @@ margin-bottom: 8px;
     text-transform: capitalize;
     text-align: center;
     margin-bottom: 72px;
+
 }
 .cloud-list {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
 }
 .title-portfolio {
-    padding: 120px 0 72px 0;
+    padding: 120px 0 120px 0;
 }
 .portfolio-list {
     flex-basis: 360px;
-    margin-bottom: 48px;
+    row-gap: 48px;
     
     
    
@@ -281,13 +282,19 @@ color:#434455;
         line-height: 1.5;
         /* 150% */
         width: 264px;
-        margin-top: 18px;
+
 }
 .footer-class {
     background-color: #2E2F42;
-    padding: 120px 0;
+    padding: 100px 0;
 }
 
 .logo-cloud {
+    
 color: #F4F4FD;
+}
+
+.footer-class .container .link {
+    display: inline-block;
+    margin-bottom: 16px;
 }
