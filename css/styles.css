@@ -59,6 +59,14 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+}
+.page-header {
+    
+    
+    border-bottom: 1px solid;
+    border-color: #E7E9FC;
+    
   
 }
 .page-nav {
